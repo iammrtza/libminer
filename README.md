@@ -31,7 +31,7 @@ library(libminer)
 lib_summary()
 #>                                                                                         Library
 #> 1                          /Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library
-#> 2 /private/var/folders/44/rlq1jl6x00bfmbg_l9jdr2080000gp/T/Rtmp5vo2mM/temp_libpath134ef6cb15b3f
+#> 2 /private/var/folders/44/rlq1jl6x00bfmbg_l9jdr2080000gp/T/Rtmp5vo2mM/temp_libpath134ef1df146dd
 #> 3                                         /Users/morteza.aslanzadeh/Library/R/arm64/4.5/library
 #>   n_packages
 #> 1        518
@@ -41,10 +41,10 @@ lib_summary()
 lib_summary(sizes = TRUE)
 #>                                                                                         Library
 #> 1                          /Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library
-#> 2 /private/var/folders/44/rlq1jl6x00bfmbg_l9jdr2080000gp/T/Rtmp5vo2mM/temp_libpath134ef6cb15b3f
+#> 2 /private/var/folders/44/rlq1jl6x00bfmbg_l9jdr2080000gp/T/Rtmp5vo2mM/temp_libpath134ef1df146dd
 #> 3                                         /Users/morteza.aslanzadeh/Library/R/arm64/4.5/library
-#>   n_packages size_bytes
-#> 1        518 4065817061
-#> 2          1      14491
-#> 3        133  356074553
+#>   n_packages lib_size
+#> 1        518     3.8G
+#> 2          1   14.75K
+#> 3        133  339.58M
 ```

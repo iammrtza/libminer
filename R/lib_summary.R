@@ -19,20 +19,13 @@ lib_summary <- function(sizes = FALSE) {
   names(pkg_df) <- c("Library", "n_packages")
 
   if (sizes) {
-    pkg_df$size_bytes <- vapply(
+    pkg_df$lib_size <- fs::as_fs_bytes(vapply(
       pkg_df$Library,
-      function(lib) {
-        pkg_names <- pkgs[pkgs[, "LibPath"] == lib, "Package"]
-        pkg_dirs <- file.path(lib, pkg_names)
-        sum(vapply(
-          pkg_dirs,
-          function(dir) sum(file.size(list.files(dir, recursive = TRUE, full.names = TRUE))),
-          numeric(1)
-        ), na.rm = TRUE)
+      function(x) {
+        sum(fs::dir_info(x, recurse = TRUE, type = "file")$size)
       },
-      numeric(1)
-    )
+      FUN.VALUE = numeric(1)
+    ))
   }
-
   pkg_df
 }
