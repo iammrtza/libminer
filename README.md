@@ -5,6 +5,7 @@
 
 <!-- badges: start -->
 
+[![R-CMD-check](https://github.com/iammrtza/libminer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/iammrtza/libminer/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of libminer is to provide an overview of your R library setup.
@@ -31,7 +32,7 @@ library(libminer)
 lib_summary()
 #>                                                                                         Library
 #> 1                          /Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library
-#> 2 /private/var/folders/44/rlq1jl6x00bfmbg_l9jdr2080000gp/T/Rtmp5vo2mM/temp_libpath134ef1df146dd
+#> 2 /private/var/folders/44/rlq1jl6x00bfmbg_l9jdr2080000gp/T/Rtmp5vo2mM/temp_libpath134ef613f68fe
 #> 3                                         /Users/morteza.aslanzadeh/Library/R/arm64/4.5/library
 #>   n_packages
 #> 1        518
@@ -41,7 +42,7 @@ lib_summary()
 lib_summary(sizes = TRUE)
 #>                                                                                         Library
 #> 1                          /Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library
-#> 2 /private/var/folders/44/rlq1jl6x00bfmbg_l9jdr2080000gp/T/Rtmp5vo2mM/temp_libpath134ef1df146dd
+#> 2 /private/var/folders/44/rlq1jl6x00bfmbg_l9jdr2080000gp/T/Rtmp5vo2mM/temp_libpath134ef613f68fe
 #> 3                                         /Users/morteza.aslanzadeh/Library/R/arm64/4.5/library
 #>   n_packages lib_size
 #> 1        518     3.8G
