@@ -4,15 +4,20 @@
 \alias{lib_summary}
 \title{R Library Summary}
 \usage{
-lib_summary()
+lib_summary(sizes = FALSE)
+}
+\arguments{
+\item{sizes}{Logical; if \code{TRUE}, also compute the total size on disk
+(in bytes) of the packages in each library. Defaults to \code{FALSE}.}
 }
 \value{
 A \code{data.frame} containing the count of packages in each of the
-user's libraries
+user's libraries, and optionally the total size on disk
 }
 \description{
 Provides a brief summary of the package libraries on your machine
 }
 \examples{
 lib_summary()
+lib_summary(sizes = TRUE)
 }
