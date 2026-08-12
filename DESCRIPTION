@@ -4,8 +4,7 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Morteza", "Aslanzadeh", email = "morteza.aslanzadeh@ki.se", role = c("aut", "cre"))
 Description: Provides functions for learning about your R libraries.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 URL: https://github.com/iammrtza/libminer
