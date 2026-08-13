@@ -8,6 +8,8 @@ Useful links:
 
 - <https://github.com/iammrtza/libminer>
 
+- <https://iammrtza.github.io/libminer/>
+
 - Report bugs at <https://github.com/iammrtza/libminer/issues>
 
 ## Author
